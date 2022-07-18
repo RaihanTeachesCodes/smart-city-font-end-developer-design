@@ -1,0 +1,145 @@
+  /*display edit zone*/
+
+body { background-image: url("resource/new\ back.jpg"); background-repeat: no-repeat;}
+
+center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 2%;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    
+    text-align: right;
+    top: 0;
+  }
+  
+  li {
+    float: right;
+    padding-right:2% ;
+
+  }
+  
+  li a {
+    font-family: "ud digi kyokasho np-b";
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color:white ;
+  }
+  
+  li a:hover {
+    background-color: rgb(230, 230, 230);
+    color: black;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  .learn_but {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 2%;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    text-align: right;
+    top: 0;
+  }
+
+  .learn_but > li {
+    padding-left: 7%;
+    float: left;
+    margin-top: 5%;
+  }
+
+  /*animation zone*/
+ 
+
+  /*####################################################################################################*/
+
+  .ess{
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+  }
+
+  .ess > img {
+    padding-top: 0%;  
+    margin-top: auto;
+    display: inline-block;
+    margin-left:-1.5%;
+  }
+  /*####################################################################################################*/
+
+  /*####################################################################################################*/
+
+
+  .development{
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+  .development > img {
+    display: inline-block;
+    margin-left:-1.5%;
+  }
+  /*####################################################################################################*/
+
+  /*####################################################################################################*/
+
+
+  .ele{
+    position: relative;
+    animation-name: example;
+    animation-duration: 9s;
+  }
+  .ele > img {
+    display: inline-block;
+    margin-left:-1.5%;
+  }
+
+  /*####################################################################################################*/
+
+  /*####################################################################################################*/
+
+
+  .smartcity{
+    position: relative;
+    animation-name: example_up;
+    animation-duration: 10s;
+  }
+  .smartcity > img {
+    display: inline-block;
+    margin-left:-1%;
+  }
+  /*####################################################################################################*/
+
+
+  
+  @keyframes example {
+    0%   {left:-2000px; top:0px;}
+    100%  {left:0px; top:0px;}
+  }
+
+  @keyframes example_up {
+    0%   {left:0px; top: 2000px;}
+    100%  {left:0px; top:0px;}
+  }
+
+  @keyframes logo_animation1 {
+    0%   {left:0px; top:-50px;}
+    100%  {left:-2000px; top: -10px;}
+  }
+

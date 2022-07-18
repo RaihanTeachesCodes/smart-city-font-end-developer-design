@@ -1,0 +1,102 @@
+body {
+    background-image: url("resource/wall.png");
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 2%;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    
+    text-align: right;
+    top: 0;
+  }
+  
+  li {
+    float: right;
+    padding-right:2% ;
+
+  }
+  
+  li a {
+    font-family: "ud digi kyokasho np-b";
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color:white ;
+  }
+  
+  li a:hover {
+    background-color: rgb(230, 230, 230);
+    color: black;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+#jing {
+    color: white;
+    font-size: 32px;
+    font-family: "ud digi kyokasho np-b" ;
+}
+
+#jing2 {
+    color: white;
+    font-size: 32px;
+    font-family: "ud digi kyokasho np-b" ;
+    padding-left: 1%;
+}
+
+.flex-container {
+    display: flex;
+    padding-top: 5%;
+    margin:auto;
+}
+
+
+.flex-container > div {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flex-container2 {
+    display: flex;
+    padding-top: 5%;
+    margin:auto;
+}
+
+
+.flex-container2 > div {
+    display: block;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.flex-container3 {
+    display: flex;
+    padding-top: 5%;
+    margin:auto;
+}
+
+
+.flex-container3 > div {
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+
+#side_img {
+    margin:auto;
+}
